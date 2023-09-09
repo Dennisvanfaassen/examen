@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+ padding:0;
+ margin:0;
+}
+
+.top-banner {
+  margin: 0 auto;
+  padding: 12% 0px 12% 0px;
+  background-color: orange;
+  text-align: center;
+}
+
+.top-banner h1 {
+  margin-bottom: 10px;
+  font-family: arial;
+  font-size: 25px;
+  color: #fff;
+}
+
+.top-banner h2 {
+  font-family: arial;
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+}
+
+.top-banner2 {
+  margin: 0 auto;
+  padding: 12% 0px 12% 0px;
+  background-color: orange;
+  text-align: center;
+}
+
+.top-banner2 h1 {
+  margin-bottom: 10px;
+  font-family: arial;
+  font-size: 25px;
+  color: #fff;
+}
+
+.top-banner2 h2 {
+  font-family: arial;
+  font-weight: 900;
+  font-size: 12px;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+
+.nav-item {
+  background-color: #FF7B00;
+}
+
+.navigation li {
+  background-color: #FF7B00;
+}
+
+.navigation li:hover {
+  background-color: #FFA047;
+}
+
+.navigation a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 12px;
+  color: #fff;
+}
+
+.navigation li a:hover {
+  color: black;
+}
+
+.stroke {
+  padding: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #FFF200;
+}
+
+.intro {
+  padding: 15px;
+  background-color: #FFBA70;
+}
+
+.muziekschool {
+
+}
+
+h3 {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.intro img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+
+h5 {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.content2 {
+  padding: 15px;
+}
+
+.content2 h3 {
+  color: orange;
+}
+
+.content2 img {
+  display: block;
+  margin: 15px;
+  width: 25%;
+  height: 25%;
+  padding-bottom: 15px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 6% 0px 6% 0px;
+  background-color: orange;
+  text-align: center;
+}
+
+.footer h4 {
+  margin: 0px;
+  line-height: 0px;
+}
+
+.hannah img {
+  float: right;
+}
+
+.jesse img {
+  float: left;
+}
+
+.artikel-titel {
+  display: inline-flex;
+}
+
+.artikel-titel p {
+  margin: 0px 0px 0px 5px;
+}
+
+hr {
+  margin-bottom: 7px;
+}
+
+.hr2 {
+  padding-bottom: 1px;
+}
+
+#frame {
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  position: relative;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+form {
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media screen and (min-device-width: 768px) {
+
+.navigation {
+  background-color: #FF7B00;
+}
+
+.nav-item {
+  float: left;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.intro {
+  width: 33%;
+  float: left;
+}
+
+.content {
+  width: 66%;
+  float: right;
+}
+
+}
